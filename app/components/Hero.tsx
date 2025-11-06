@@ -29,7 +29,7 @@ export default function Hero() {
       <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 w-full py-3">
         {/* STUDIO Text */}
         <div className="flex-1 flex items-center justify-center md:justify-start">
-          <span className="text-6xl sm:text-7xl md:text-8xl lg:text-[9rem] font-bold tracking-wide">STUDIO</span>
+          <span className="text-6xl sm:text-7xl md:text-8xl lg:text-[9rem] font-bold tracking-wide text-black">STUDIO</span>
         </div>
 
         {/* Image Grid */}
