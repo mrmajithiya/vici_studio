@@ -41,14 +41,14 @@ export default function OurService() {
             </div>
             <div className="absolute top-12 sm:top-23 left-32 sm:left-136 w-28 sm:w-55 h-28 sm:h-55 bg-gray-200 rounded-xl">
                 <img
-                        src="/331A9687.jpg"
+                        src="/331A9687.JPG"
                         alt="Studio 9"
                         className="w-full h-full object-cover rounded-xl border border-white"
                     />
             </div>
             <div className="absolute bottom-6 sm:bottom-12 right-8 sm:right-29 w-20 sm:w-40 h-18 sm:h-35 bg-gray-200 rounded-xl">
                 <img
-                        src="/331A9663.jpg"
+                        src="/331A9663.JPG"
                         alt="Studio 2"
                         className="w-full h-full object-cover rounded-xl border border-white"
                     />
