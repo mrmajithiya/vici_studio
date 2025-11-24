@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="flex gap-4 md:gap-6">
           <div className="w-[140px] h-[140px] sm:w-[180px] sm:h-[180px] md:w-[220px] md:h-[220px] overflow-hidden rounded-xl shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+              src="/weddingimg.jpg"
               alt="Studio 1"
               className="w-full h-full object-cover"
             />
@@ -17,7 +17,7 @@ export default function Hero() {
 
           <div className="w-[140px] h-[140px] sm:w-[180px] sm:h-[180px] md:w-[220px] md:h-[220px] overflow-hidden rounded-xl shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+              src="/weddigimg2.jpg"
               alt="Studio 2"
               className="w-full h-full object-cover"
             />
@@ -37,7 +37,7 @@ export default function Hero() {
           {/* Image 1 */}
           <div className="w-[140px] h-[140px] sm:w-40 sm:h-40 md:w-[220px] md:h-[220px] shrink-0 overflow-hidden rounded-xl shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+              src="/jainilimg.png"
               alt="Studio photography"
               className="w-full h-full object-cover"
             />
@@ -46,7 +46,7 @@ export default function Hero() {
           {/* Image 2 */}
           <div className="w-[140px] h-[140px] sm:w-40 sm:h-40 md:w-[220px] md:h-[220px] shrink-0 overflow-hidden rounded-xl shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+              src="/womanphoto.jpg"
               alt="Studio photography"
               className="w-full h-full object-cover"
             />
@@ -55,7 +55,7 @@ export default function Hero() {
           {/* Image 3 */}
           <div className="w-[140px] h-[140px] sm:w-40 sm:h-40 md:w-[220px] md:h-[220px] shrink-0 overflow-hidden rounded-xl shadow-lg sm:block hidden">
             <img
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+              src="/menshoot1.jpg"
               alt="Studio photography"
               className="w-full h-full object-cover"
             />
@@ -69,7 +69,7 @@ export default function Hero() {
           <div className="flex gap-4 md:gap-6">
             <div className="w-[140px] h-[140px] sm:w-40 sm:h-40 md:w-[220px] md:h-[220px] overflow-hidden rounded-xl shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                src="/audience-1853662.jpg"
                 alt="Studio 1"
                 className="w-full h-full object-cover"
               />
@@ -77,7 +77,7 @@ export default function Hero() {
 
             <div className="w-[140px] h-[140px] sm:w-40 sm:h-40 md:w-[220px] md:h-[220px] overflow-hidden rounded-xl shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                src="/ai-generated-8248592.jpg"
                 alt="Studio 1"
                 className="w-full h-full object-cover"
               />
@@ -85,7 +85,7 @@ export default function Hero() {
 
             <div className="w-[140px] h-[140px] sm:w-40 sm:h-40 md:w-[220px] md:h-[220px] overflow-hidden rounded-xl shadow-lg sm:block hidden">
               <img
-                src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                src="/Gemini_Generated.png"
                 alt="Studio 2"
                 className="w-full h-full object-cover"
               />
@@ -107,7 +107,7 @@ export default function Hero() {
         <p className="order-1 sm:order-2 text-center tracking-wide text-xs sm:text-sm">
           CAPTURE THE MOMENT CREATE THE STORY
         </p>
-        <button className="order-3 bg-black text-white px-5 py-2 rounded-full hover:bg-gray-900 transition text-xs sm:text-sm">
+        <button className="order-3 bg-black text-white px-5 py-2 rounded-full cursor-pointer hover:bg-gray-900 transition text-xs sm:text-sm">
           Book a Session
         </button>
       </div>

@@ -28,14 +28,32 @@ const WhyChooseVici: React.FC = () => {
                     </h2>
 
                     {/* Small image grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-5 w-full mb-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 w-full mb-5">
                         {/* Left large box */}
-                        <div className="w-full max-w-[300px] h-[200px] sm:h-[250px] md:h-[300px] bg-neutral-800 rounded-xl mx-auto md:mx-0"></div>
+                        <div className="w-full max-w-[400px] lg:max-w-[500px] xl:max-w-[600px] h-[200px] sm:h-[250px] md:h-[350px] lg:h-[400px] xl:h-[450px] bg-neutral-800 rounded-xl mx-auto md:mx-0">
+                            <img
+                                src="/traditional-4367791.jpg"
+                                alt="Studio 9"
+                                className="w-full h-full object-cover rounded-xl border border-white"
+                            />
+                        </div>
 
                         {/* Right two stacked boxes */}
-                        <div className="flex flex-col gap-4 items-center md:items-start">
-                            <div className="w-full max-w-[250px] h-[120px] sm:h-[150px] bg-neutral-700 rounded-xl"></div>
-                            <div className="w-full max-w-[250px] h-[180px] sm:h-[250px] bg-neutral-700 rounded-xl"></div>
+                        <div className="flex flex-col gap-4 md:gap-6 lg:gap-8 items-center md:items-start justify-center">
+                            <div className="w-full max-w-[300px] lg:max-w-[350px] xl:max-w-[400px] h-[120px] sm:h-[150px] md:h-[180px] lg:h-[200px] bg-neutral-700 rounded-xl">
+                                <img
+                                    src="/corporate-event.jpg"
+                                    alt="Studio 9"
+                                    className="w-full h-full object-cover rounded-xl border border-white"
+                                />
+                            </div>
+                            <div className="w-full max-w-[300px] lg:max-w-[350px] xl:max-w-[400px] h-[180px] sm:h-[200px] md:h-[280px] lg:h-80 bg-neutral-700 rounded-xl">
+                                <img
+                                    src="/pe-samarth.jpg"
+                                    alt="Studio 9"
+                                    className="w-full h-full object-cover rounded-xl border border-white"
+                                />
+                            </div>
                         </div>
                     </div>
 
@@ -45,17 +63,17 @@ const WhyChooseVici: React.FC = () => {
                 <div className="space-y-12 md:space-y-16 md:pl-60">
                     {/* Point 1 */}
                     <div>
-                        <div className="flex justify-end items-end md:hidden">
-                            <ArrowUpRight className="text-white w-8 h-8 sm:w-10 sm:h-10 md:w-15 md:h-15" />
+                        <div className="flex justify-end items-end md:hidden ">
+                            <ArrowUpRight className="text-white w-8 h-8 sm:w-10 sm:h-10 md:w-15 md:h-15 " />
                         </div>
                         <div className="flex justify-end items-end ">
-                            <ArrowUpRight className="text-white w-8 h-8 sm:w-10 sm:h-10 md:w-15 md:h-15 hidden md:block" />
+                            <ArrowUpRight className="text-white w-8 h-8 sm:w-10 sm:h-10 md:w-15 md:h-15 hidden md:block cursor-pointer" />
                         </div>
                         <div className="flex justify-between items-start">
                             <p className="text-gray-400 text-xl sm:text-2xl">01</p>
-                            
+
                         </div>
-                        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-2 mb-2">
+                        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-2 mb-2 cursor-pointer">
                             INCLUSIVE COLLABORATION
                         </h3>
                         <p className="text-gray-400 text-base sm:text-lg md:text-xl leading-relaxed">
@@ -68,13 +86,13 @@ const WhyChooseVici: React.FC = () => {
                         <div className="flex justify-between items-start">
                             <p className="text-gray-400 text-xl sm:text-2xl">02</p>
                         </div>
-                        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-2 mb-2">
+                        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-2 mb-2 cursor-pointer">
                             UNIQUE & CINEMATIC CONCEPT
                         </h3>
                         <p className="text-gray-400 text-base sm:text-lg md:text-xl leading-relaxed">
                             Deep textures array artists with unusual views & accessories.
                         </p>
-                        <div className="flex justify-end items-end">
+                        <div className="flex justify-end items-end cursor-pointer">
                             <ArrowDownRight className="text-white w-8 h-8 sm:w-10 sm:h-10 md:w-15 md:h-15" />
                         </div>
                     </div>
@@ -82,8 +100,20 @@ const WhyChooseVici: React.FC = () => {
             </div>
             {/* Large bottom boxes */}
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-8 md:mt-5">
-                <div className="aspect-video md:aspect-25/15 bg-white rounded-xl"></div>
-                <div className="aspect-video md:aspect-25/15 bg-white rounded-xl"></div>
+                <div className="aspect-video md:aspect-25/15 bg-white rounded-xl">
+                    <img
+                        src="/bride-7324805.jpg"
+                        alt="Studio 9"
+                        className="w-full h-full object-cover rounded-xl border border-white"
+                    />
+                </div>
+                <div className="aspect-video md:aspect-25/15 bg-white rounded-xl">
+                    <img
+                        src="/amodita-fram.jpg"
+                        alt="Studio 9"
+                        className="w-full h-full object-cover rounded-xl border border-white"
+                    />
+                </div>
             </div>
         </section>
     );

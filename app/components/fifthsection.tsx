@@ -9,9 +9,9 @@ const Letswork: React.FC = () => {
                     <div className="w-full md:w-70 h-60 md:h-90 bg-neutral-500 mt-4 md:mt-5 ml-0 md:ml-10 rounded-xl aspect-auto"></div>
                     <div className="flex flex-col md:flex-row p-4 md:p-5">
                         <div className="flex-1">
-                            <p className="text-2xl md:text-4xl text-black mt-4 md:ml-5">Jonas Lee</p>
+                            <p className="text-2xl md:text-4xl text-black mt-4 md:ml-5">Bhadarka Group </p>
                             <p className="text-base md:text-xl text-black leading-tight mt-2 md:w-1/2 md:ml-5">
-                                As a business owner, I'm thrilled with the stunning showcase Sans Photo Studio created for my products.
+                                As a business owner, We thrilled with the stunning showcase Vici Studio created for my events.
                             </p>
                         </div>
                         <div className="mt-4 md:mt-0">
@@ -49,7 +49,7 @@ const Letswork: React.FC = () => {
                         <div className="flex flex-col items-start space-y-4 md:space-y-6 max-w-xs">
                             <p className="text-lg md:text-xl text-gray-300">hello@sansbrothers.com</p>
                             <p className="text-xs md:text-sm text-gray-400">
-                                Ready to elevate your creativity? Book a session at Sans Studio today!
+                                Ready to elevate your creativity? Book a session at Vici Studio today!
                             </p>
                         </div>
                     </div>
@@ -92,8 +92,20 @@ const Letswork: React.FC = () => {
                     {/* Right Section */}
                     <div className="flex flex-col items-start space-y-6 max-w-xs mr-0 lg:mr-25 w-full lg:w-auto">
                         <div className="flex gap-4 mt-6 md:mt-10 w-full justify-center lg:justify-start">
-                            <div className="w-20 md:w-50 h-32 md:h-55 bg-gray-300 rounded-sm"></div>
-                            <div className="w-20 md:w-50 h-32 md:h-55 bg-gray-700 rounded-sm"></div>
+                            <div className="w-20 md:w-50 h-32 md:h-55 bg-gray-300 rounded-sm">
+                                <img
+                                    src="/rose-9939147.jpg"
+                                    alt="Studio 9"
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                            <div className="w-20 md:w-50 h-32 md:h-55 bg-gray-700 rounded-sm">
+                                <img
+                                    src="/eastern.jpg"
+                                    alt="Studio 9"
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

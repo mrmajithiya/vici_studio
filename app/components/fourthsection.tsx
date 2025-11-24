@@ -45,8 +45,14 @@ const CapturingStories: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mt-8 md:mt-0">
 
                 {/* Card 01 */}
-                <div className="flex flex-col gap-3">
-                    <div className="bg-neutral-800 rounded-xl aspect-4/5"></div>
+                <div className="flex flex-col gap-3 group cursor-pointer">
+                    <div className="bg-neutral-800 rounded-xl aspect-4/5 overflow-hidden transition-transform duration-300 group-hover:scale-105">
+                        <img
+                            src="/pexels-somyadinkar.jpg"
+                            alt="Studio 9"
+                            className="w-full h-full object-cover rounded-xl border border-gray-700"
+                        />
+                    </div>
                     <div>
                         <p className="text-lg sm:text-xl text-gray-400 mb-1">01</p>
                         <h4 className="text-sm sm:text-base md:text-2xl font-medium">
@@ -56,8 +62,14 @@ const CapturingStories: React.FC = () => {
                 </div>
 
                 {/* Card 02 */}
-                <div className="flex flex-col gap-3">
-                    <div className="bg-neutral-800 rounded-xl aspect-4/5"></div>
+                <div className="flex flex-col gap-3 group cursor-pointer">
+                    <div className="bg-neutral-800 rounded-xl aspect-4/5 overflow-hidden transition-transform duration-300 group-hover:scale-105">
+                        <img
+                            src="/Municipal_Corporation.jpg"
+                            alt="Studio 9"
+                            className="w-full h-full object-cover rounded-xl"
+                        />
+                    </div>
                     <div>
                         <p className="text-lg sm:text-xl text-gray-400 mb-1">02</p>
                         <h4 className="text-sm sm:text-base md:text-2xl font-medium">
@@ -71,7 +83,7 @@ const CapturingStories: React.FC = () => {
                     <div className="relative bg-transparent rounded-xl aspect-4/5 p-4 sm:p-6 ">
                         {/* Top Left Text */}
                         <div className="absolute top-4 left-4">
-                            <p className="text-base sm:text-xl font-light text-gray-300">sans.studio</p>
+                            <p className="text-base sm:text-xl font-light text-gray-300">vici.studio</p>
                             <p className="text-lg sm:text-2xl font-semibold text-white leading-tight">
                                 OUR LATEST PROJECTS
                             </p>
@@ -85,19 +97,31 @@ const CapturingStories: React.FC = () => {
                 </div>
 
                 {/* Card 03 */}
-                <div className="flex flex-col gap-3">
-                    <div className="bg-neutral-800 rounded-xl aspect-4/5"></div>
+                <div className="flex flex-col gap-3 group cursor-pointer">
+                    <div className="bg-neutral-800 rounded-xl aspect-4/5 overflow-hidden transition-transform duration-300 group-hover:scale-105">
+                        <img
+                            src="/artstudio.jpg"
+                            alt="Studio 9"
+                            className="w-full h-full object-cover rounded-xl"
+                        />
+                    </div>
                     <div>
                         <p className="text-lg sm:text-xl text-gray-400 mb-1">03</p>
                         <h4 className="text-sm sm:text-base md:text-2xl font-medium">
-                            EDITORIAL FASHION
+                            FINE ART STUDIO POTRAITS
                         </h4>
                     </div>
                 </div>
 
                 {/* Card 04 */}
-                <div className="flex flex-col gap-3">
-                    <div className="bg-neutral-800 rounded-xl aspect-4/5"></div>
+                <div className="flex flex-col gap-3 group cursor-pointer">
+                    <div className="bg-neutral-800 rounded-xl aspect-4/5 overflow-hidden transition-transform duration-300 group-hover:scale-105">
+                        <img
+                            src="/lifestyle.jpg"
+                            alt="Studio 9"
+                            className="w-full h-full object-cover rounded-xl"
+                        />
+                    </div>
                     <div>
                         <p className="text-lg sm:text-xl text-gray-400 mb-1">04</p>
                         <h4 className="text-sm sm:text-base md:text-2xl font-medium">
@@ -111,7 +135,7 @@ const CapturingStories: React.FC = () => {
                     <div className="relative bg-transparent rounded-xl aspect-4/5 p-4 sm:p-6 ">
                         {/* Top Left Text */}
                         <div className="absolute top-4 left-4">
-                            <p className="text-base sm:text-xl font-light text-gray-300">sans.studio</p>
+                            <p className="text-base sm:text-xl font-light text-gray-300">vici.studio</p>
                             <p className="text-lg sm:text-2xl font-semibold text-white leading-tight">
                                 OUR LATEST PROJECTS
                             </p>
@@ -125,8 +149,14 @@ const CapturingStories: React.FC = () => {
                 </div>
 
                 {/* Card 05 */}
-                <div className="flex flex-col gap-3">
-                    <div className="bg-neutral-800 rounded-xl aspect-4/5"></div>
+                <div className="flex flex-col gap-3 group cursor-pointer">
+                    <div className="bg-neutral-800 rounded-xl aspect-4/5 overflow-hidden transition-transform duration-300 group-hover:scale-105">
+                        <img
+                            src="/shoes-blackbg2.jpg"
+                            alt="Studio 9"
+                            className="w-full h-full object-cover rounded-xl border border-gray-700"
+                        />
+                    </div>
                     <div>
                         <p className="text-lg sm:text-xl text-gray-400 mb-1">05</p>
                         <h4 className="text-sm sm:text-base md:text-2xl font-medium">
@@ -136,8 +166,14 @@ const CapturingStories: React.FC = () => {
                 </div>
 
                 {/* Card 06 */}
-                <div className="flex flex-col gap-3">
-                    <div className="bg-neutral-800 rounded-xl aspect-4/5"></div>
+                <div className="flex flex-col gap-3 group cursor-pointer">
+                    <div className="bg-neutral-800 rounded-xl aspect-4/5 overflow-hidden transition-transform duration-300 group-hover:scale-105">
+                        <img
+                            src="/prehasmukh.jpg"
+                            alt="Studio 9"
+                            className="w-full h-full object-cover rounded-xl"
+                        />
+                    </div>
                     <div>
                         <p className="text-lg sm:text-xl text-gray-400 mb-1">06</p>
                         <h4 className="text-sm sm:text-base md:text-2xl font-medium">
